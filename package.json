@@ -1,0 +1,19 @@
+{
+  "name": "tree-walker",
+  "version": "0.0.1",
+  "description": "tree-walker",
+  "scripts": {
+    "json": "node js/jsHtmltoJson.js",
+    "extract": "node js/jsExtract.js",
+    "replace": "node js/jsReplace.js",
+    "rPatch": "node js/patchReplace.js"
+  },
+  "author": "tsaiyouyuan",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "html-entities": "^1.2.1",
+    "js-beautify": "^1.7.4",
+    "jsdom": "^11.4.0"
+  }
+}
